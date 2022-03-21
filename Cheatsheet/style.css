@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: large;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-color: orange;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: start;
+  background-image: url(./render1.png);
+  background-attachment: fixed;
+  gap: 3rem;
+}
+
+section {
+  height: fit-content;
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.164);
+  backdrop-filter: blur(2px);
+  color: whitesmoke;
+}
+
+table {
+  border: 1px solid black;
+  text-align: left;
+  width: 650px;
+}
+
+thead {
+  background-color: gray;
+}
+
+td {
+  border: 1px solid black;
+}
+
+.code {
+  font-family: monospace;
+  background-color: black;
+  color: orange;
+}
